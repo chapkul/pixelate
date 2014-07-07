@@ -863,5 +863,5 @@ var Backbone = Backbone || {
   window.pixelate = function(canvas, options) {
     return new Pixelate(canvas, options);
   };
-
-})(window, jQuery, _, Backbone);
+(window, jQuery, _, Backbone);
+});
